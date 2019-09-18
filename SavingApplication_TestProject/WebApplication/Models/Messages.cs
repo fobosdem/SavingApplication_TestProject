@@ -7,6 +7,7 @@ namespace WebApplication.Models
 {
 	public class Messages
 	{
+		public int ID { get; set; }
 		public string MessageType { get; set; }
 		public string Message { get; set; }
 	}
