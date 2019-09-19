@@ -1,7 +1,11 @@
-﻿@{
-    ViewBag.Title = "About";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+﻿@model WebApplication.Models.Users
 
-<p>Use this area to provide additional information.</p>
+<h2>Login</h2>
+@Html.TextBoxFor(model => model.Name)
+@Html.TextBoxFor(model => model.Surname)
+@Html.TextBoxFor(model => model.NickName)
+@Html.TextBoxFor(model => model.Password)
+@ViewBag.Message
+
+
+<input type="submit" value="Дальше" />

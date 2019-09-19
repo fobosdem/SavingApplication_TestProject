@@ -12,5 +12,8 @@ namespace WebApplication.Models
 		public string Surname { get; set; }
 		public string NickName { get; set; }
 		public string Password { get; set; }
+		public Users()
+		{
+		}
 	}
 }
